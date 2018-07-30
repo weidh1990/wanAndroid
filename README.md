@@ -16,7 +16,10 @@ https://github.com/hongyangAndroid/wanandroid
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目这个模块则是收录了一些网上开源的学习项目，种类很多，通过点击列表页面上方的title可以弹出一个picker选择框来选择你要查看的项目分类。
 
 ## 项目截图
-
+![](art/01.png)
+![](art/02.png)
+![](art/03.png)
+![](art/04.png)
 
 ## 总结
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;整个项目是我学习小程序的练手作品，主要包括小程序的一些组件的使用比如swiper，picker等组件的用法，以及小程序中事件的学习和分包策越的使用。总的来说小程序使用了前端技术栈js/wxml/wxss 运行在微信app自己的上下文中，最终会把界面翻译成原生的控件显示出来，来达到和原生APP性能相当的体验。
