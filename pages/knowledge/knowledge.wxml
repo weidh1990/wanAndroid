@@ -1,0 +1,12 @@
+<view class='nav-knowledge bg-item' wx:for="{{ knowledgeList }}" wx:key="{{ id }}">
+  <view class='knowledge-item'>
+    <view class='knowledge-left'>
+      <text class='text-title'>{{ item.name}}</text>
+      <view class='content-list'>
+        <view class='text-content' wx:for='{{ item.children }}' wx:key="id" wx:for-item="childrenItem" data-cat-id='{{ childrenItem.id }}' data-title='{{ item.name }}' data-class-name='{{ childrenItem.name }}' bindtap='navToKnowledgeInfo'>
+          {{childrenItem.name}} </view>
+      </view>
+    </view>
+    <image class="img-arrow" src='/assets/images/right.png'></image>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<view class="content">
+  <text class='text-classify'>{{ name }}</text>
+
+  <view>
+    <navigator class='bg-item' wx:for="{{ blogList }}" wx:key="{{ id }}" url='/pages/webpage/webpage?webUrl={{ item.link }}'>
+      <view class='top-info row-mid'>
+        <image src='/assets/images/ic_launcher_round.png'></image>
+        <text class='blog-title'>{{ item.author }}</text>
+        <text class='blog-desc'>{{ item.superChapterName +"/"+ item.chapterName }}</text>
+      </view>
+      <text class='text-mid'>{{ item.title }}</text>
+      <view class='bottom-info row-mid'>
+        <image class="heart-img" src='/assets/images/heart.png'></image>
+        <image class="time-img" src='/assets/images/time-circle.png'></image>
+        <text class='blog-time'>{{ item.niceDate }}</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class='loadmore loading' wx:if="{{ hasMore }}">
+    <text>加载更多...</text>
+  </view>
+  <view class='loadmore' wx:else>你已经到达我的底线了</view>
+</view>

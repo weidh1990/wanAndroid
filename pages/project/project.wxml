@@ -1,0 +1,24 @@
+<view class="content">
+  <picker moder="selector" bindchange='bindPickerChange' range='{{ projectList }}' value='{{  index }}' range-key='{{ "name" }}'>
+    <text class='text-classify'>{{ projectList[index].name }}</text>
+  </picker>
+
+  <navigator class='project-item bg-item' wx:for='{{ projectBlogList }}' wx:key='id' url="/pages/webpage/webpage?webUrl={{ item.link }}">
+    <image class='image-info' src='{{ item.envelopePic }}' mode='aspectFill'></image>
+    <view class='project-info'>
+      <view class='top-info ell'>
+        <image class='image-icon' src='/assets/images/ic_launcher_round.png'></image>
+        <text class='text-title'>{{ item.title }}</text>
+      </view>
+      <text class='text-info'>{{ item.desc }}</text>
+      <view class='bottom-info'>
+        <text class='text-date'>{{ item.niceDate }}</text>
+        <text class='text-auther'>{{ item.author }}</text>
+      </view>
+    </view>
+  </navigator>
+
+  <view class='loadmore loading' wx:if='{{ hasMore}}'>加载更多...</view>
+  <view class='loadmore' wx:else>你已经到达我的底线了</view>
+
+</view>

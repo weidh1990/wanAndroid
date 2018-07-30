@@ -1,0 +1,9 @@
+<view class="content bg-item" wx:for="{{ navList }}" wx:key="{{ id }}">
+  <text class='text-title'>{{ item.name }}</text>
+  <view class='content-list'>
+    <navigator class='text-item' wx:for="{{ item.articles }}" wx:key="{{ id }}" wx:for-item="articleItem"
+    url="/pages/webpage/webpage?webUrl={{ articleItem.link }}">
+      <text>{{ articleItem.title }}</text>
+    </navigator>
+  </view>
+</view>

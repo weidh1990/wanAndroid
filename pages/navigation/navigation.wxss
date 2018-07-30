@@ -1,0 +1,22 @@
+
+.text-title {
+  color: black;
+}
+
+.content-list {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.text-item {
+  color: rgba(37, 32, 32, 0.801);
+  font-size: 12px;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  border: 1rpx solid rgba(0, 0, 0, 0.6);
+  padding: 10rpx;
+  border-radius: 30rpx;
+}
+

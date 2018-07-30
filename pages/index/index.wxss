@@ -1,0 +1,83 @@
+
+.slider,
+.slider swiper,
+.slider image{
+  width: 100%;
+  height: 390rpx;
+}
+
+.swiper-info{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10rpx 10rpx;
+  background-color: rgba(121, 114, 114, 0.884);
+  font-size: 16px;
+  color: white;
+}
+
+.swiper-index{
+  position: absolute;
+  right: 0;
+  margin-right: 40rpx;
+  }
+  
+  .top-info{
+    font-size: 8 px;
+    color: rgba(37, 32, 32, 0.699);
+    position: relative;
+  }
+
+  .blog-desc{
+    color: blue;
+    position: absolute;
+    right: 0;
+    margin-right: 40rpx;
+    font-size: 12px;
+  }
+
+  .top-info image{
+    width: 50rpx;
+    height: 50rpx;
+    margin-right: 20rpx;
+  }
+
+  .blog-title{
+    font-size: 12px;
+  }
+
+  .text-mid{
+    color: rgba(37, 32, 32, 0.801);
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: 10rpx 0rpx;
+  }
+
+  .heart-img{
+    width: 50rpx;
+    height: 50rpx;
+  }
+
+  .time-img{
+    width: 50rpx;
+    height: 50rpx;
+    margin-left: 20rpx;
+    margin-right: 10rpx;
+  }
+
+  .blog-time{
+    color: rgba(37, 32, 32, 0.801);
+    font-size: 14px;
+  }
+
+  .new-flag{
+    position: absolute;
+    right: 0;
+    margin-right: 40rpx;
+    border: 1rpx solid blue;
+    color: blue;
+    padding: 0rpx 10rpx;
+    font-size: 16px;
+  }

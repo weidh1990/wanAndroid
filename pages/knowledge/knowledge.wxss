@@ -1,0 +1,33 @@
+
+.text-title {
+  color: black;
+}
+
+.content-list{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.text-content {
+  color: rgba(37, 32, 32, 0.801);
+  font-size: 12px;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  border: 1rpx solid rgba(0, 0, 0, 0.6);
+  padding: 10rpx;
+  border-radius: 30rpx;
+}
+
+.knowledge-item {
+  display: flex;
+  align-items: center;
+}
+
+.img-arrow {
+  width: 45rpx;
+  height: 45rpx;
+  position: absolute;
+  right: 0;
+  margin-right: 30rpx;
+}
